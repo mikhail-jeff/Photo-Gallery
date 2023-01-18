@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	font-family: 'Rubik', sans-serif;
+	background: #222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container {
+	background-color: snow;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+	width: 90%;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.input {
+	padding: 8px 4px;
+	font-size: 18px;
+	border-radius: 5px;
+	text-align: center;
+	width: 80px;
+}
+
+.errorMessage {
+	color: red;
+	font-weight: 500;
+	margin: 10px;
+	display: none;
+}
+
+.btn {
+	text-transform: uppercase;
+	width: 200px;
+	height: 45px;
+	margin: 20px 0;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	background: black;
+	color: white;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.gallery {
+	display: none;
+}
+
+.gallery img {
+	width: 350px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 5px;
+	margin: 5px;
+}
